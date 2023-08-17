@@ -8,7 +8,7 @@ var encrypt = require('mongoose-encryption');
 var md5 = require('md5');
 var session =require("express-session");
 const passport=require("passport");
-const passportLocalMongoose=require("passport-Local-Mongoose");
+const passportLocalMongoose=require("passport-local-mongoose");
 var GoogleStrategy = require('passport-google-oauth20').Strategy;
 var findOrCreate = require('mongoose-findorcreate'); 
 
